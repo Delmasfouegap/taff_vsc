@@ -58,7 +58,7 @@
 #     if N >= (last_year - first_year):
 #         raise ExamEception("ERROR: N (che vale {}) deve essere minore di last_year - first_year (che vale {})".format(N, last_year - first_year))
     
-#     array = [i for i in my_dict_by_anno.keys()]
+    array = [i for i in my_dict_by_anno.keys()]
 
 #     if first_year not in my_dict_by_anno.keys() or last_year not in my_dict_by_anno.keys():
 #         raise ExamEception("ERROR: gli estremi dell'intervallo devono essere tra {} e {}.".format( min(my_dict_by_anno), max(my_dict_by_anno)) )
